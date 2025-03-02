@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerRotationController : MonoBehaviour
 {
     public Transform cameraTransform; // Reference to the camera
-    public float rotationSpeed = 10f; // Adjust this for smoothness
+    public float rotationSpeed = 100f; // Adjust this for smoothness
 
     void Update()
     {
